@@ -1,0 +1,41 @@
+@import "../../../variables";
+@import "../../../functions";
+
+header {
+  @include flex(row, space-between, center);
+  width: 100vw;
+  height: 89px;
+  padding: 0 55px;
+  border-bottom: 3px solid $line-color;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  .logo {
+    @include flex(row, space-between, center);
+    img {
+      width: 68px;
+      height: 68px;
+    }
+    .logo-text {
+      @include flex(column, center, center);
+      h1 {
+        color: $primary-color;
+        font-size: 26px;
+        line-height: 1em;
+      }
+      h2 {
+        color: $secondary-color;
+        font-size: 16px;
+        letter-spacing: 3px;
+        line-height: 1em;
+      }
+    }
+  }
+  nav ul {
+    @include flex(row, space-between, center);
+    list-style: none;
+    gap: 13px;
+    button {
+      @include button($primary-color, $text-color);
+    }
+  }
+}
