@@ -4,3 +4,12 @@
   justify-content: $justify;
   align-items: $align;
 }
+@mixin button($background-color, $color) {
+  background-color: $background-color;
+  color: $color;
+  padding: 8px 13px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
