@@ -3,7 +3,8 @@
 
 .banner {
   @include flex(column, center, center);
-  height: calc(100vh - 89px);
+  height: 100vh;
+  width: 100vw;
   background: url(../../../assets/images/home_background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
