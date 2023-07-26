@@ -17,7 +17,7 @@
     @include flex(row, space-between, center);
     gap: 13px;
 
-    img {
+    & img {
       width: 68px;
       height: 68px;
     }
@@ -25,13 +25,13 @@
     &--texto {
       @include flex(column, center, center);
 
-      h1 {
+      & h1 {
         color: $primary-color;
         font-size: 26px;
         line-height: 1em;
       }
 
-      h2 {
+      & h2 {
         color: $secondary-color;
         font-size: 16px;
         letter-spacing: 3px;
@@ -44,7 +44,7 @@
     gap: 21px;
     list-style: none;
 
-    button {
+    & button {
       @include button($primary-color, $text-color);
     }
   }

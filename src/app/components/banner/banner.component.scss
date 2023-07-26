@@ -42,7 +42,7 @@
     @include flex(row, center, center);
     gap: 21px;
 
-    div {
+    & div {
       @include flex(column, space-between, center);
       width: 89px;
       height: 89px;
@@ -55,7 +55,7 @@
       font-size: 42px;
       line-height: 1em;
 
-      p {
+      & p {
         font-size: 16px;
         line-height: 1em;
       }
