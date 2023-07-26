@@ -1,20 +1,32 @@
 <section class="banner">
   <h2 class="banner__titulo">
-    Bem vindo a <span class="banner__titulo--destaque">starlight</span>
+    Bem-vindo a <span class="banner__titulo--destaque">starlight</span>
   </h2>
-  <p class="banner__apoio">Entre no universo da
+  <p class="banner__apoio">
+    Entre no universo da
     <span class="banner__apoio--destaque"> Starlight </span>
     e sinta a temperatura
-    <span class="banner__apoio--destaqueAzul"> subir</span>!
-    Uma festa intensa como uma
-    <span class="banner__apoio--destaqueAzul"> supernova</span>,
-    onde as bebidas são explosões de sabor e a energia é
+    <span class="banner__apoio--destaqueAzul"> subir</span>! Uma festa intensa
+    como uma <span class="banner__apoio--destaqueAzul"> supernova</span>, onde
+    as bebidas são explosões de sabor e a energia é
     <span class="banner__apoio--destaqueAzul"> eletrizante</span>!
   </p>
   <div class="banner__countdown">
-    <div class="banner__countdown__days">{{ countdownDays }}</div>
-    <div class="banner__countdown__hours">{{ countdownHours }}</div>
-    <div class="banner__countdown__minutes">{{ countdownMinutes }}</div>
-    <div class="banner__countdown__seconds">{{ countdownSeconds }}</div>
+    <div class="banner__countdown__days">
+      {{ countdownDays }}
+      <p>Dias</p>
+    </div>
+    <div class="banner__countdown__hours">
+      {{ countdownHours }}
+      <p>Horas</p>
+    </div>
+    <div class="banner__countdown__minutes">
+      {{ countdownMinutes }}
+      <p>Minutos</p>
+    </div>
+    <div class="banner__countdown__seconds">
+      {{ countdownSeconds }}
+      <p>Segundos</p>
+    </div>
   </div>
 </section>
