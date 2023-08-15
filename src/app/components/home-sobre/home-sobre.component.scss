@@ -1,0 +1,46 @@
+.sobreOEvento {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px;
+
+  &__wrapper {
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+
+    &__text {
+      width: calc(50% - 30px);
+    }
+
+    &__img {
+      width: calc(50% - 30px);
+      max-width: 350px;
+
+      & img {
+        max-width: 100%;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+
+.sobreOEvento__wrapper__text h5 {
+  color: #d20459;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.sobreOEvento__wrapper__text p {
+  margin: 20px 0px 40px;
+}
+
+.sobreOEvento__wrapper__text button {
+  background: transparent;
+  color: white;
+  border: 1px solid #d20459;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
