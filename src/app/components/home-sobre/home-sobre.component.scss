@@ -1,3 +1,6 @@
+@import "../../../variables";
+@import "../../../functions";
+
 .sobreOEvento {
   display: flex;
   justify-content: center;
@@ -27,7 +30,7 @@
 }
 
 .sobreOEvento__wrapper__text h5 {
-  color: #d20459;
+  color: $primary-color;
   text-transform: uppercase;
   font-weight: bold;
   font-size: xx-large;
@@ -40,7 +43,7 @@
 .sobreOEvento__wrapper__text button {
   background: transparent;
   color: white;
-  border: 1px solid #d20459;
+  border: 1px solid $primary-color;
   padding: 10px 15px;
   border-radius: 30px;
 }
